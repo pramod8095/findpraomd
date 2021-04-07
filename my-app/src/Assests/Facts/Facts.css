@@ -1,0 +1,40 @@
+
+.facts{
+    font-family: 'Dancing Script';
+    font-size: 500%;
+    background-color: orange;
+    padding:5%;
+    width: 100%;
+    position: absolute;
+    margin-top: 125%;
+    display: inline-block;
+    text-align: right;
+    vertical-align: top;
+    resize: both;
+    overflow: auto;
+    
+}
+.facts-des{
+    font-family: 'Dancing Script';
+    font-size: 30px;
+    background-color: teal;
+    padding: 9%;
+    margin: auto;
+    width: 100%;
+    margin-top: 138%;
+    margin-left: -8%;
+    position: absolute;      
+    display: inline-block;
+    vertical-align: top;
+    resize: both;
+    overflow: auto;
+}
+.tri-img{
+    animation-name: mymove;    
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes mymove {
+    40% {padding: 32px;}
+    100% {right: 90px;}
+  }

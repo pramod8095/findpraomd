@@ -1,0 +1,25 @@
+.nav-body{
+    font-family: 'Dancing Script', cursive;
+    font-size:30px ;
+    color: white;
+}
+.mr-auto:hover{
+    text-decoration: underline;
+    letter-spacing: 0.04em;
+}
+.nav-main{
+    display: flex;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 20%;
+    
+}
+.button-place{
+    display: flex;
+    margin-top:2%;   
+    margin-left: 45%;    
+    margin-right: 30%;
+}
+body{
+    background-color: #343a40!important;
+}

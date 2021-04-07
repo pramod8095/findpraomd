@@ -1,0 +1,23 @@
+ 
+  a.facebook {
+    color: #4968ad ;
+    background:none;
+  }
+  
+  a.twitter {
+    color: #49a1eb;
+    background:none;
+  }
+  
+  a.instagram {
+    color: black;
+    background:none;
+  }
+  a.social:hover {
+    transform: translateY(-2px);
+  }
+  a.social {
+    margin: 0 1rem;
+    transition: transform 250ms;
+    display: inline-block;
+  }  

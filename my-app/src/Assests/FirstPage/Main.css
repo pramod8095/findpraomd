@@ -1,0 +1,27 @@
+
+
+.title{
+    color: rgba(255, 255, 255, 0.952);
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    resize: both;
+    overflow: auto;
+    
+}
+.h5, h5 {
+    font-size: 2rem;
+}
+.description{
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    resize: both;
+    overflow: auto;
+}
+.pramod{
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    resize: both;
+    overflow: auto;
+    
+}

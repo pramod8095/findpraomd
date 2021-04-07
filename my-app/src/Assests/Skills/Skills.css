@@ -1,0 +1,47 @@
+
+.skills{
+    font-family: 'Dancing Script';
+    font-size: 500%;
+    background-color: orange;
+    padding:5%;
+    width: 100%;
+    position: absolute;
+    margin-top: -3%;
+    margin-top: 35%;
+    display: inline-block;
+    text-align: right;
+    resize: both;
+    overflow: auto;
+    
+}
+.graph{
+    font-family: 'Dancing Script';
+    font-size: 80px;
+    background-color: teal;
+    padding: 9%;
+    margin: auto;
+    width: 100%;
+    margin-top: 48%;
+    margin-left: -8%;
+    margin-right: -20%;
+    position: absolute;      
+    display: inline-block;
+    border: box 20%;
+    resize: both;
+    overflow: auto;
+}
+.circle-img {
+    animation-name: example;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes example {
+    0%   { left:0; top:0px;}
+    25%  { left:10%; top:2px;}
+    50%  { left:10%; top:200px;}
+    75%  { left:20%; top:200px;}
+    100% { left:12%; top:0px;}
+  }

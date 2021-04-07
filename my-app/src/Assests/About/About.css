@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.about{
+    font-family: 'Dancing Script';
+    font-size: 500%;
+    background-color: yellow;
+    padding:5%;
+    width: 100%;
+    position: absolute;
+    margin-top: -3%;
+    display: inline-block;
+    resize: both;
+    overflow: auto;
+}
+.about-description{
+    font-family: 'Dancing Script';
+    font-size: 30px;
+    background-color: teal;
+    padding: 10%;
+    margin-left: 24%;
+    position: absolute;  
+    display: inline-block;  
+    resize: both;
+    overflow: auto;
+}
